@@ -21,5 +21,9 @@
     "jest": "^26.1.0",
     "parcel-bundler": "^1.12.4",
     "prettier": "^2.0.5"
-  }
+  },
+  "browserslist": [
+    "last 2 Chrome versions",
+    "last 2 Firefox versions"
+  ]
 }
