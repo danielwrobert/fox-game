@@ -83,3 +83,19 @@ https://btholt.github.io/project-fox-game-site/state-machine
 A Finite State Machine (FSM) is a methodology of writing code, and how to track variables that prevents a lot of styles of bugs. 
 
 It let's you define various states of what you expect your app to look like and then all "derivative" state is … derived from that chief state.
+
+State Machines course (XState) - https://frontendmasters.com/courses/xstate/
+
+## The Game
+
+### Some UI (Building The UI:CSS and Unhiding Elements)
+
+https://btholt.github.io/project-fox-game-site/some-ui
+
+`:empty` is a CSS pseudo-selector that will apply the rules to an element anytime there is no content in that element.
+
+SVG Animations course - https://frontendmasters.com/courses/svg-essentials-animation/
+
+### Interacting with the UI (Adding Buttons and Creating Constants)
+
+https://btholt.github.io/project-fox-game-site/interacting-with-the-ui
