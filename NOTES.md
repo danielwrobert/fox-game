@@ -99,3 +99,19 @@ SVG Animations course - https://frontendmasters.com/courses/svg-essentials-anima
 ### Interacting with the UI (Adding Buttons and Creating Constants)
 
 https://btholt.github.io/project-fox-game-site/interacting-with-the-ui
+
+**Adding Buttons**
+
+We use the modulo (%) operator to wrap the button pushes. If some one clicks left on the first button, it wraps to the last button.
+
+The Modulo Operator (Remainder) is super useful for scenarios where you want to loop back around, like we are here.
+
+See [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Remainder) for additional info.
+
+**Creating Constants**
+
+Adding your constants to a separate file allows for you to keep track of and update them more easily, as well as add additional items.
+
+By separating out the logic into `gameState.js`, we have the ability to handle our actions from there and we've kind of divorced them from the interface. So now we can handle the interface one place that can be independently testable.
+
+The interface concerns are all in buttons. And all the business logic action is all happening inside of game state, which is where we want it to happen.
