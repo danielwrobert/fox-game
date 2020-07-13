@@ -115,3 +115,7 @@ Adding your constants to a separate file allows for you to keep track of and upd
 By separating out the logic into `gameState.js`, we have the ability to handle our actions from there and we've kind of divorced them from the interface. So now we can handle the interface one place that can be independently testable.
 
 The interface concerns are all in buttons. And all the business logic action is all happening inside of game state, which is where we want it to happen.
+
+## States
+
+Setting an initial value to `-1` is referred to as a "sentinal value". This essentially means that the item is not currently active. You could also use `undefined` but it's a good habit to keep things in the same Type and this does just that. If you use TypeScript, you'd be forced to use `-1` in these instances.
