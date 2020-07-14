@@ -118,4 +118,12 @@ The interface concerns are all in buttons. And all the business logic action is 
 
 ## States
 
+https://btholt.github.io/project-fox-game-site/the-states
+
+**Adding New States**
+
 Setting an initial value to `-1` is referred to as a "sentinal value". This essentially means that the item is not currently active. You could also use `undefined` but it's a good habit to keep things in the same Type and this does just that. If you use TypeScript, you'd be forced to use `-1` in these instances.
+
+**Adding Helper Functions**
+
+Naming a function, as we are in our helper exports, is optional but it helps with debugging. If something should crash because of one of these function exports, the name will show up in the stack trace - as opposed to "there was a problem with a function" or something along those lines.
